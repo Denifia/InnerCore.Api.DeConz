@@ -97,7 +97,8 @@ namespace InnerCore.Api.DeConz
                     {
                         Id = message.Id,
                         Config = message.Config,
-                        State = message.State
+                        State = message.State,
+                        UniqueId = message.UniqueId
                     });
                 }
                 else if (message.ResourceType == ResourceType.Light)

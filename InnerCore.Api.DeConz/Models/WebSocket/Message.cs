@@ -23,5 +23,8 @@ namespace InnerCore.Api.DeConz.Models.WebSocket
 
         [DataMember]
         public SensorConfig Config { get; set; }
+
+        [DataMember]
+        public string UniqueId { get; set; }
     }
 }
